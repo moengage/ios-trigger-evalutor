@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'MoEngageTriggerEvaluator'
-  s.version      = '1.00.00'
+  s.version      = '1.00.0'
   s.summary      = 'MoEngageTriggerEvaluator for iOS'
   s.description  = <<-DESC
                      MoEngageTriggerEvaluator evaluates trigger conditions of inApp campaigns.
