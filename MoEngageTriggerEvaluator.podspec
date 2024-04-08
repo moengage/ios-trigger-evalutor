@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'MoEngageTriggerEvaluator'
-  s.version      = '1.00.0'
+  s.version      = '1.01.0'
   s.summary      = 'MoEngageTriggerEvaluator for iOS'
   s.description  = <<-DESC
                      MoEngageTriggerEvaluator evaluates trigger conditions of inApp campaigns.
@@ -24,5 +24,5 @@ Pod::Spec.new do |s|
   s.tvos.vendored_frameworks = 'Frameworks/MoEngageTriggerEvaluator.xcframework'
   s.requires_arc = true
   s.frameworks = 'Foundation', 'UIKit', 'CoreGraphics'
-  s.dependency 'MoEngage-iOS-SDK', '>= 9.16.1', '< 9.17.0'
+  s.dependency 'MoEngage-iOS-SDK', '>= 9.17.0', '< 9.18.0'
 end
