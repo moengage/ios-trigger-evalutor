@@ -16,12 +16,11 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '11.0'
 
   s.source       = { 
-    :git => 'https://github.com/moengage/ios-trigger-evalutor',
-    :tag => 'triggerEvaluator-' + s.version.to_s 
+    :http => "https://github.com/moengage/ios-trigger-evalutor/releases/download/#{s.version}/MoEngageTriggerEvaluator.xcframework.zip", 
+    :sha256 => '119636343c639984c5214142affee0bc93542de81c628880912a73254ef3d859'
   }
 
-  s.ios.vendored_frameworks = 'Frameworks/MoEngageTriggerEvaluator.xcframework'
-  s.tvos.vendored_frameworks = 'Frameworks/MoEngageTriggerEvaluator.xcframework'
+  s.vendored_frameworks = 'MoEngageTriggerEvaluator.xcframework'
   s.requires_arc = true
   s.frameworks = 'Foundation', 'UIKit', 'CoreGraphics'
   s.dependency 'MoEngage-iOS-SDK', '>= 9.17.0', '< 9.18.0'
