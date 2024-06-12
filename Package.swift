@@ -3,8 +3,8 @@
 
 import PackageDescription
 
-let version = "1.01.0"
-let checksum = "119636343c639984c5214142affee0bc93542de81c628880912a73254ef3d859"
+let version = "1.01.1"
+let checksum = "a1a03784a099209e87aaf85f9ef04f664abab1eef3e055a0503402f1cb976021"
 let package = Package(
     name: "MoEngageTriggerEvaluator",
     platforms: [.iOS(.v11), .tvOS(.v11)],
