@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'MoEngageTriggerEvaluator'
-  s.version      = '1.01.0'
+  s.version      = '1.01.1'
   s.summary      = 'MoEngageTriggerEvaluator for iOS'
   s.description  = <<-DESC
                      MoEngageTriggerEvaluator evaluates trigger conditions of inApp campaigns.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.source       = { 
     :http => "https://github.com/moengage/ios-trigger-evalutor/releases/download/#{s.version}/MoEngageTriggerEvaluator.xcframework.zip", 
-    :sha256 => '119636343c639984c5214142affee0bc93542de81c628880912a73254ef3d859'
+    :sha256 => 'a1a03784a099209e87aaf85f9ef04f664abab1eef3e055a0503402f1cb976021'
   }
 
   s.vendored_frameworks = 'MoEngageTriggerEvaluator.xcframework'
